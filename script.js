@@ -1,4 +1,7 @@
-function isSameType(value1, value2) {
+function isSameType(value1, value2)
+	const value1="hello";
+    const value2="world";
+	{
 	if(isSameType(NaN NaN)){
 	 if (isNaN(value1) && isNaN(value2)) {
         return true; // Both values are NaN
